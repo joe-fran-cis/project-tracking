@@ -51,7 +51,7 @@
             <div class="alert alert-danger">
                 {{ session('error') }}
             </div>
-        @endif 
+        @endif
 
         <form action="{{ route('projects.store') }}" method="post">
             @csrf
